@@ -1,6 +1,6 @@
 <template>
  <div class="header flex">
-   <div class="right flex">
+   <div class="flex">
      <p @click="$router.push('/signup')">新規登録</p>
      <p @click="$router.push('/')">ログイン</p>
    </div>
@@ -8,13 +8,7 @@
 </template>
 
 <style scoped>
-.right {
- align-items: center;
-}
-.right p {
- margin-right: 20px;
- cursor: pointer;
-}
+
 .header {
  margin: 20px;
 }
@@ -25,5 +19,6 @@
 .flex {
  display: flex;
  justify-content: space-between;
+ text-align:center;
 }
 </style>
