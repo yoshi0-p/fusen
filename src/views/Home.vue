@@ -1,6 +1,7 @@
 <template>
     <div>
       <div id="navi"><HeaderMenu /></div>
+      <img src="https://pbs.twimg.com/media/Eu-89xbUcAAFvTB?format=jpg&amps;name=900x900" alt="">
       <Message />
       </div>
 </template>
